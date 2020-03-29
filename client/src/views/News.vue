@@ -1,7 +1,7 @@
 <template>
 <section class="main">
-<div class="container mt-4">
-    <h1 class="text-center mb-4 p-4 text-danger" style="text-shadow: 1px 1px #000000;">News Articles</h1>
+<div class="container mt-4 background-form">
+    <h1 class="text-center mb-4 p-4 text-light" style="text-shadow: 3px 3px #000000;">News Articles</h1>
       <div class="row">
 
    <div class="card-columns">
@@ -15,10 +15,10 @@
   </div>
   <div class="card shadow border-0  p-3">
     <blockquote class="blockquote mb-0 card-body">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <p>Singapore donates 40,000 COVID-19 test kits to PH.</p>
       <footer class="blockquote-footer">
         <small class="text-muted">
-          Someone famous in <cite title="Source Title">Source Title</cite>
+          Someone famous in <cite title="Source Title">https://globalnation.inquirer.net/</cite>
         </small>
       </footer>
     </blockquote>
@@ -31,7 +31,7 @@
       <p class="card-text"><small class="text-muted">March 26, 2020</small></p>
     </div>
   </div>
-  <div class="card shadow border-0 bg-primary text-white text-center p-3">
+  <div class="card shadow border-0 bg-light text-black text-center p-3">
     <blockquote class="blockquote mb-0">
       <p>China, U.S. to set aside differences in G20 coronavirus summit: SCMP</p>
       <footer class="blockquote-footer">
@@ -74,6 +74,13 @@
    </div>
    </section>
 </template>
+
+<script>
+export default {
+  name: 'News',
+
+}
+</script>
 
 <style>
 

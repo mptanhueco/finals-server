@@ -16,16 +16,16 @@
         </div>
       </div>
       <!-- Slide Two - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('../assets/c1.jpg')">
+      <div class="carousel-item" style="background-image: url('https://wallpaperaccess.com/full/314799.jpg')">
         <div class="carousel-caption d-none d-md-block">
-          <h2 class="display-4">Second Slide</h2>
+          <h2 class="display-4">Developers</h2>
           <p class="lead">This is a description for the second slide.</p>
         </div>
       </div>
       <!-- Slide Three - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('../assets/c1.jpg')">
+      <div class="carousel-item" style="background-image: url('https://wallpaperaccess.com/full/314799.jpg')">
         <div class="carousel-caption d-none d-md-block">
-          <h2 class="display-4">Third Slide</h2>
+          <h2 class="display-4">HAU</h2>
           <p class="lead">This is a description for the third slide.</p>
         </div>
       </div>
@@ -42,51 +42,51 @@
 </header>
 
 <!-- Page Content -->
-<section class="py-5 text-center">
+<section class="py-5 text-center text-light background-form" style="position: relative; bottom: 30px;">
       <div class="container"> 
-        <h2 class="text-center">Lorem Ipsum</h2>
+        <h2 class="text-center">About Us</h2>
         <p class="text-muted mb-5 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         <div class="row">
           <div class="col-sm-6 col-lg-4 mb-3">
             <svg class="lnr text-primary services-icon">
               <use xlink:href="#lnr-magic-wand"></use>
             </svg>
-            <h6>Ex cupidatat eu</h6>
+            <h6>Home</h6>
             <p class="text-muted">Ex cupidatat eu officia consequat incididunt labore occaecat ut veniam labore et cillum id et.</p>
           </div>
           <div class="col-sm-6 col-lg-4 mb-3">
             <svg class="lnr text-primary services-icon">
               <use xlink:href="#lnr-heart"></use>
             </svg>
-            <h6>Tempor aute occaecat</h6>
+            <h6>News</h6>
             <p class="text-muted">Tempor aute occaecat pariatur esse aute amet.</p>
           </div>
           <div class="col-sm-6 col-lg-4 mb-3">
             <svg class="lnr text-primary services-icon">
               <use xlink:href="#lnr-rocket"></use>
             </svg>
-            <h6>Voluptate ex irure</h6>
+            <h6>Members</h6>
             <p class="text-muted">Voluptate ex irure ipsum ipsum ullamco ipsum reprehenderit non ut mollit commodo.</p>
           </div>
           <div class="col-sm-6 col-lg-4 mb-3">
             <svg class="lnr text-primary services-icon">
               <use xlink:href="#lnr-paperclip"></use>
             </svg>
-            <h6>Tempor commodo</h6>
+            <h6>Events</h6>
             <p class="text-muted">Tempor commodo nostrud ex Lorem occaecat duis occaecat minim.</p>
           </div>
           <div class="col-sm-6 col-lg-4 mb-3">
             <svg class="lnr text-primary services-icon">
               <use xlink:href="#lnr-screen"></use>
             </svg>
-            <h6>Et fugiat sint occaecat</h6>
+            <h6>Login</h6>
             <p class="text-muted">Et fugiat sint occaecat voluptate incididunt anim nostrud ea cillum cillum consequat.</p>
           </div>
           <div class="col-sm-6 col-lg-4 mb-3">
             <svg class="lnr text-primary services-icon">
               <use xlink:href="#lnr-inbox"></use>
             </svg>
-            <h6>Et labore tempor et</h6>
+            <h6>Signup</h6>
             <p class="text-muted">Et labore tempor et adipisicing dolor.</p>
           </div>
         </div>
@@ -148,4 +148,11 @@ bgc2, .vLine, .hLine {
     font-size: 60px;
     margin-left: 2rem;
 }
+
+.carousel{
+  bottom: 60px;
+  z-index: -1;
+}
+
+
 </style>

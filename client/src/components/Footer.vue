@@ -47,7 +47,7 @@
 
 <script>
 export default {
-  name: 'Navigation',
+  name: 'Footer',
   data() {
     return {
       links: [
@@ -65,6 +65,21 @@ export default {
           id: 2,
           text: 'News',
           page:'/News'
+        },
+        {
+          id: 3,
+          text: 'Events',
+          page:'/Events'
+        },
+        {
+          id: 4,
+          text: 'Login',
+          page:'/Login'
+        },
+        {
+          id: 5,
+          text: 'Signup',
+          page:'/Signup'
         }
       ]
     }

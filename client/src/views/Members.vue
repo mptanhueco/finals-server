@@ -1,7 +1,7 @@
 <template>
 <div>
     <!-- Header -->
-<header class="bg-primary text-center py-5 mb-4">
+<header class="background-form text-center py-5 mb-4">
   <div class="container">
     <h1 class="font-weight-light text-white">Meet the Team</h1>
   </div>
@@ -11,7 +11,7 @@
 <div class="container">
   <div class="row">
     <!-- Team Member 1 -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 mb-4 ml-auto">
       <div class="card border-0 shadow">
         <img src="../assets/pam.jpg" class="card-img-top" alt="...">
         <div class="card-body text-center">
@@ -24,32 +24,54 @@
     <!-- Team Member 2 -->
     <div class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow">
-        <img src="../assets/pam.jpg" class="card-img-top" alt="...">
+        <img src="../assets/profile.jpg" class="card-img-top" alt="...">
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Team Member</h5>
-          <h5 class="card-title mb-0">Gonzalez, Patricia Pamela</h5>
+          <h5 class="card-title mb-0">Tanhueco, Miguel Paolo</h5>
           <div class="card-text text-black-50">Web Developer</div>
         </div>
       </div>
     </div>
     <!-- Team Member 3 -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 mb-4 mr-5">
       <div class="card border-0 shadow">
-        <img src="../assets/pam.jpg" class="card-img-top" alt="...">
+        <img src="../assets/mangio.jpg" class="card-img-top" alt="...">
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Team Member</h5>
-          <h5 class="card-title mb-0">Gonzalez, Patricia Pamela</h5>
+          <h5 class="card-title mb-0">Mangio, Christian Daniel</h5>
           <div class="card-text text-black-50">Web Developer</div>
         </div>
       </div>
     </div>
     <!-- Team Member 4 -->
-    <div class="col-xl-3 col-md-6 mb-4">
+    <div class="col-xl-3 col-md-6 mb-4 ml-5">
       <div class="card border-0 shadow">
-        <img src="../assets/pam.jpg" class="card-img-top" alt="...">
+        <img src="../assets/tey.jpg" class="card-img-top" alt="...">
         <div class="card-body text-center">
           <h5 class="card-title mb-0">Team Member</h5>
-          <h5 class="card-title mb-0">Gonzalez, Patricia Pamela</h5>
+          <h5 class="card-title mb-0">Machon, Kristel</h5>
+          <div class="card-text text-black-50">Web Developer</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 5 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="../assets/russ.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Team Member</h5>
+          <h5 class="card-title mb-0">Flores, Russel</h5>
+          <div class="card-text text-black-50">Web Developer</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 6 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="../assets/isip.jpg" class="card-img-top" alt="..." style="height:255px;">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Team Member</h5>
+          <h5 class="card-title mb-0">Isip, Jan Kristopher</h5>
           <div class="card-text text-black-50">Web Developer</div>
         </div>
       </div>

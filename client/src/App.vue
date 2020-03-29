@@ -6,12 +6,10 @@
   </div>
 </template>
 
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 <script>
 import Navigation from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
+
 export default {
   name: 'app',
   components: {
@@ -21,9 +19,11 @@ export default {
 }
 </script>
 
+
+
 <style>
 body{
-background: url(https://image.shutterstock.com/image-vector/internet-connection-abstract-sense-science-260nw-554257006.jpg) !important;
+background: url(https://manteshsayshe.files.wordpress.com/2015/10/macbook_pro_apple_laptop_headphones_table_98893_2560x1080.jpg) !important;
 background-repeat: no-repeat !important;
 background-size: cover !important;
 }
@@ -50,5 +50,10 @@ background-size: cover !important;
 
 #nav a.router-link-exact-active {
   color: skyblue;
+}
+
+.background-form{
+ background:  #0000007a;
+
 }
 </style>

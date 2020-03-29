@@ -1,6 +1,6 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: #2d3246;">
-  <a class="navbar-brand " href="#" style="text-shadow: 1px 1px #000000;"><strong>WCSERVER</strong></a>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand text-light" href="#" style="text-shadow: 3px 3px #000000;"><strong>WCSERVER</strong></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -34,6 +34,21 @@ export default {
           id: 2,
           text: 'News',
           page:'/News'
+        },
+        {
+          id: 3,
+          text: 'Events',
+          page:'/Events'
+        },
+        {
+          id: 4,
+          text: 'Login',
+          page:'/Login'
+        },
+        {
+          id: 5,
+          text: 'Signup',
+          page:'/Signup'
         }
       ]
     }
@@ -45,13 +60,13 @@ export default {
   .spacing { 
     Margin-right: 10px; 
     text-decoration: none;
-    color: #000000;
+    color: #fff;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
     padding-left: 30px;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 3px 3px #000000;
   } 
   .spacing a{
     text-decoration: none;
@@ -60,5 +75,6 @@ export default {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
+    
   }
 </style>
