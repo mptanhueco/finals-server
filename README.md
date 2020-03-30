@@ -1,12 +1,22 @@
-# wcserver
-#Instruction
+# WCSERVER
+#Instructions:
 
-## Project setup
+## Setup the Project
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Go to Client/ Directory
+```
+cd client
+```
+
+## Build the project
+```
+npm run build
+```
+
+### Compile to run
 ```
 npm run serve
 ```
