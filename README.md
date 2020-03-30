@@ -1,7 +1,12 @@
 # wcserver
 #Instruction
 
-You can invoke these scripts using either npm or Yarn:
+## Project setup
+```
+npm install
+```
 
-cd client   
-
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
